@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF000000"
+    tools:context="com.rescue.blood.instablood.RequestForBlood">
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/circleImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/map"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:textColor="@color/cardview_light_background"
+            android:id="@+id/dt"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_centerHorizontal="true"
+            android:text="TextView"
+            />
+
+        <TextView
+            android:layout_marginTop="11dp"
+            android:textSize="15sp"
+            android:textColor="@color/cardview_light_background"
+            android:id="@+id/dt1"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_centerHorizontal="true"
+            android:text="TextView"
+            />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:layout_alignEnd="@+id/button2"
+            android:layout_alignRight="@+id/button2"
+            android:layout_below="@+id/dt"
+            android:layout_marginTop="11dp"
+            android:text="TextView"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="20sp"></TextView>
+
+
+
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple"
+        android:padding="10dp"
+        android:text="      CALL      "
+        android:layout_margin="20dp"
+        android:textColor="@color/cardview_light_background" />
+
+    <Button
+        android:id="@+id/decline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/ripple_register"
+        android:text=" DECLINE "
+        android:textColor="@color/text_color" />
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

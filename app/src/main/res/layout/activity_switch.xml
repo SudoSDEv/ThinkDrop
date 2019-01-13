@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/love"
+        android:scaleType="centerCrop"/>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="match_parent"
+android:layout_width="match_parent"
+        android:orientation="vertical"
+    android:background="@color/black_transparent">                                                                                                                                                                                 <ng.max.slideview.SlideView
+
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="8dp"
+    android:layout_centerInParent="true"
+    android:id="@+id/donor"
+    app:sv_buttonImage="@drawable/chevron_light"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:sv_buttonBackgroundColor="@color/btn_sign_in"
+    app:sv_slideBackgroundColor="@color/black_transparent"
+    app:sv_slideText="SWIPE TO DONATE"
+    app:sv_slideTextColor="@android:color/white"
+    app:sv_slideTextSize="16sp"
+    app:sv_animateSlideText="true"
+    app:sv_reverseSlide="false"
+    app:sv_strokeColor="@android:color/white"
+    />                                                                                                                                                                                                                                                                                                                                           <ng.max.slideview.SlideView
+    app:sv_buttonImage="@drawable/chevron_light"
+    android:layout_below="@id/donor"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="8dp"
+    android:layout_centerInParent="true"
+    android:id="@+id/receiver"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:sv_buttonBackgroundColor="@color/btn_sign_in"
+    app:sv_slideBackgroundColor="@color/black_transparent"
+    app:sv_slideText="SWIPE TO FIND"
+    app:sv_slideTextColor="@android:color/white"
+    app:sv_slideTextSize="16sp"
+    app:sv_animateSlideText="true"
+    app:sv_reverseSlide="false"
+    app:sv_strokeColor="@android:color/white"
+    />
+
+    <ImageButton
+        android:id="@+id/signOut"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:background="@android:color/transparent"
+        android:padding="5dp"
+        app:srcCompat="@drawable/logout" />
+</RelativeLayout>
+
+
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+

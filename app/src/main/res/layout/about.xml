@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:padding="30dp"
+        android:textColor="@color/text_color"
+        android:text="&#34;We are not that bad. Crazy team of 5 trying to do something social.&#34;"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:backgroundTint="@android:color/white"
+            android:layout_weight="1"
+            android:layout_width="220dp"
+            android:src="@drawable/sayan"
+            android:scaleType="centerCrop"
+            app:civ_border_width="3dp"
+            app:civ_border_color="#FF000000"
+            android:layout_height="220dp" />
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:typeface="serif"
+            android:textStyle="italic"
+            android:text="&#34;Someone write my intro please.&#34; \n - Sayan Dutta"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/dp2"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="@android:color/white"
+                    android:layout_weight="1"
+                    android:layout_width="220dp"
+                    android:src="@drawable/sanket"
+                    android:scaleType="centerCrop"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#FF000000"
+                    android:layout_height="220dp" />
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textStyle="italic"
+                    android:typeface="serif"
+                    android:text="&#34;The dedicated night owl of our team.&#34; \n - Sanket Dasgupta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/dp3"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:backgroundTint="@android:color/white"
+                android:layout_weight="1"
+                android:layout_width="220dp"
+                android:src="@drawable/sanchari"
+                android:scaleType="centerCrop"
+                app:civ_border_width="3dp"
+                app:civ_border_color="#FF000000"
+                android:layout_height="220dp" />
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:typeface="serif"
+                android:textStyle="italic"
+                android:text="&#34;Many would have died without those assignments.&#34; \n - Sanchari Bhattacharyya"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        app:cardUseCompatPadding="true"
+        app:cardElevation="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/dp4"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:backgroundTint="@android:color/white"
+                android:layout_weight="1"
+                android:layout_width="220dp"
+                android:src="@drawable/sayani"
+                android:scaleType="centerCrop"
+                app:civ_border_width="3dp"
+                app:civ_border_color="#FF000000"
+                android:layout_height="220dp" />
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:typeface="serif"
+                android:textStyle="italic"
+                android:text="&#34;Nothing could be so special as meeting Ma Saraswati.&#34; \n - Sayani Lahiri"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        app:cardUseCompatPadding="true"
+        app:cardElevation="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/dp5"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:backgroundTint="@android:color/white"
+                android:layout_weight="1"
+                android:layout_width="220dp"
+                android:src="@drawable/shibu"
+                android:scaleType="centerCrop"
+                app:civ_border_width="3dp"
+                app:civ_border_color="#FF000000"
+                android:layout_height="220dp" />
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:typeface="serif"
+                android:textStyle="italic"
+                android:text="&#34;The guy who is a mutual friend of every girl on this planet.&#34; \n - Shibabrata Banerjee"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
+
+    </ScrollView>
+

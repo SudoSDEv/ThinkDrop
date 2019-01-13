@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.rescue.blood.instablood.MainActivity"
+    android:background="@color/cardview_light_background"
+    >
+<LinearLayout
+    android:layout_marginTop="40dp"
+    android:id="@+id/content_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="T H I N K D R O P"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="35sp" />
+
+    <TextView
+        android:textAlignment="center"
+        android:text="Become a hero - donate blood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_marginTop="10dp"
+        tools:text="Become a hero - donate blood"
+        android:textSize="18dp"
+        />
+
+</LinearLayout>
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/logo"
+        android:layout_gravity="center"
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        android:background="@drawable/logo"
+        android:textAlignment="center"/>
+
+</RelativeLayout>
+
+<LinearLayout
+        android:id="@+id/lll"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:text="LOGIN"
+        android:background="@drawable/ripple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:layout_marginRight="6dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="6dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
+    <Button
+        android:layout_marginLeft="6dp"
+        android:text="REGISTER"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/ripple_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register"
+        android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/emergency"
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:text="Have an emergency? Find blood"
+        android:textAlignment="center" />
+</RelativeLayout>

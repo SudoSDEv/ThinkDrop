@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/requests"
+            android:icon="@drawable/pending_acc"
+            android:title="Pending requests" />
+        <item
+            android:id="@+id/acc_manage"
+            android:icon="@drawable/user_dp"
+            android:title="Account" />
+        <item
+            android:id="@+id/cr"
+            android:icon="@drawable/cr"
+            android:title="Past transactions" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/bug_report"
+                android:icon="@drawable/bug_report"
+                android:title="Bug report" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/face"
+                android:title="About" />
+            <item
+                android:id="@+id/logOut"
+                android:icon="@drawable/logout"
+                android:title="Sign Out">
+            </item>
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/exit"
+                android:title="Exit">
+            </item>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_margin="15dp"
+        android:id="@+id/BGs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/Op"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="O+" />
+
+        <RadioButton
+            android:id="@+id/On"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="O-" />
+
+        <RadioButton
+            android:id="@+id/Ap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A+" />
+
+        <RadioButton
+            android:id="@+id/An"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A-" />
+
+        <RadioButton
+            android:id="@+id/Bp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="B+" />
+
+        <RadioButton
+            android:id="@+id/Bn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="B-" />
+
+        <RadioButton
+            android:id="@+id/ABp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AB+" />
+
+        <RadioButton
+            android:id="@+id/ABn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AB-" />
+    </RadioGroup>
+</LinearLayout>

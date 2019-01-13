@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "137354843569",
+    "firebase_url": "https://instablood-272b4.firebaseio.com",
+    "project_id": "instablood-272b4",
+    "storage_bucket": "instablood-272b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137354843569:android:d89531e698fb7a34",
+        "android_client_info": {
+          "package_name": "com.rescue.blood.instablood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137354843569-n9kp8vunvado4gqt5iahv78s8ldtpkfc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rescue.blood.instablood",
+            "certificate_hash": "b2f6849c379c98ff7a66f07d2fe36649bfb1c11b"
+          }
+        },
+        {
+          "client_id": "137354843569-62vdfn22qlaiuetg0jflun3jmbqaucau.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rescue.blood.instablood",
+            "certificate_hash": "90896f1954e60825bc34edddcda1cb68d1fab329"
+          }
+        },
+        {
+          "client_id": "137354843569-po0165b553fg3drta2sdrtc6motlq10o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVe4r0XODKXyVVHy24fgxnytXA9jjPPbI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137354843569-po0165b553fg3drta2sdrtc6motlq10o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

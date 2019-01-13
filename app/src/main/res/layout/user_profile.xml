@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/user_dp" />
+
+    <EditText
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_toLeftOf="@+id/imageView2"
+        android:layout_toStartOf="@+id/imageView2"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="23dp"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="28dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_marginBottom="20dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="Made with love in India"
+        android:textAlignment="center" />
+</RelativeLayout>

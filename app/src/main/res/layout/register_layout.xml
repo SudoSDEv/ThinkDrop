@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/reg_layout"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="wrap_content">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        app:met_textColor="@color/text_color"
+        app:met_baseColor="@color/text_color"
+        app:met_singleLineEllipsis="true"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/text_color"
+        app:met_errorColor="@color/btn_sign_in"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/password"
+        app:met_singleLineEllipsis="true"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        app:met_textColor="@color/text_color"
+        app:met_baseColor="@color/text_color"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/text_color"
+        app:met_minCharacters="6"
+        app:met_errorColor="@color/btn_sign_in"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/name"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        app:met_singleLineEllipsis="true"
+        app:met_errorColor="@color/btn_sign_in"
+        app:met_textColor="@color/text_color"
+        app:met_baseColor="@color/text_color"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/text_color"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/ph"
+        android:inputType="phone"
+        app:met_singleLineEllipsis="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:met_errorColor="@color/btn_sign_in"
+        android:hint="Phone"
+        app:met_textColor="@color/text_color"
+        app:met_baseColor="@color/text_color"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/text_color"
+        />
+
+    <TextView
+        android:textSize="18sp"
+        android:text="Blood group"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/bg"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btn_sign_in"></Spinner>
+
+</LinearLayout>
